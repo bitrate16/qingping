@@ -2,6 +2,12 @@
 
 Tool for configuring your Qingping Air Monitor Lite without internet or app.
 
+# WARNING
+
+**Carefully check your device model before use. Author is not responsible for possible damage or device bricking.**
+
+In practive device can not be killed by bluetooth packets, but incompatibilities between firmware and/or hardware may cause fatal damage when operating on unknown opcodes. You must understand and accept the risks before using this utility.
+
 # How to use
 
 Install with
