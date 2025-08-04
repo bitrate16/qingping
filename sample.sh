@@ -1,0 +1,13 @@
+python3 -m qingping.bluetooth \
+    --verbose \
+    --mac cc:b5:d1:31:cb:14 \
+    --wifi-ssid "sasay" \
+    --wifi-password "6j45-3lxp-bm9u-s8xc" \
+    --link-token "00112233445566778899AABBCCDDEEFF" \
+    --mqtt-host "monitoring.pegasko.art" \
+    --mqtt-port 1883 \
+    --mqtt-login qingping \
+    --mqtt-password qingping \
+    --mqtt-client "smol" \
+    --mqtt-read "/sensor/qingping/0001/read" \
+    --mqtt-write "/sensor/qingping/0001/write"
