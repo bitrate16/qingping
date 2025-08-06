@@ -36,6 +36,8 @@ python3 -m qingping.bluetooth \
 
 Optionally change `mqtt-login`, `mqtt-pasword` and `link-token`.
 
+You can export metrics to influxdb with this tool: https://github.com/bitrate16/qingping-influxdb
+
 # Supported devices
 
 Currently supported devices:
