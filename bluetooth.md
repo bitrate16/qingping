@@ -40,7 +40,7 @@ notification(
 
 #### Structure
 
-Response is make of chunks:
+Response is made of chunks:
 ```
 <size><type = 0x07><chunk>
 ```
@@ -80,7 +80,7 @@ notification(
 
 #### Structure
 
-Response is make of chunks:
+Response is made of chunks:
 ```
 <size><type = 0x04><chunk>
 ```
@@ -118,7 +118,7 @@ notification(
 
 #### Structure
 
-Response is make of chunks:
+Response is made of chunks:
 ```
 <size><type = 0x08><mac bytes>
 ```
@@ -155,7 +155,7 @@ notification(
 
 #### Structure
 
-Response is make of chunks:
+Response is made of chunks:
 ```
 <size><type = 0x0B><mac bytes>
 ```
@@ -192,7 +192,7 @@ notification(
 
 #### Structure
 
-Response is make of chunks:
+Response is made of chunks:
 ```
 <size><type = 0x0C><mac bytes>
 ```
