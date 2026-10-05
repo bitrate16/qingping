@@ -33,8 +33,7 @@ with open(os.path.join(cwd, 'README.md'), encoding='utf-8') as f:
 setup(
     name='qingping',
     version='0.3',
-    py_modules=[ 'qingping' ],
-    packages=[ 'qingping' ],
+    packages=find_packages(include=[ 'qingping', 'qingping.*' ]),
     install_requires=[
         'pygatt',
         'attrs',

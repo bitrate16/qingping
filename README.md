@@ -64,6 +64,19 @@ Connection pipeline described [pipeline.md](pipeline.md)
 - Documentation for MQTT commands
 - Support cli configuration over MQTT
 
+# Development
+
+Run the distribution regression tests in a virtual environment:
+
+```bash
+python -m pip install build setuptools wheel .
+python -m unittest discover -s tests -v
+```
+
+The tests build a source distribution and its wheel, check the packaged modules,
+and verify installed imports and CLI help from outside the source tree. They run
+without Bluetooth hardware.
+
 # License
 
 ```
